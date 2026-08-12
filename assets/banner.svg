@@ -1,0 +1,75 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0E1A"/>
+      <stop offset="55%" stop-color="#141126"/>
+      <stop offset="100%" stop-color="#1B1330"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- grilla de puntos decorativa -->
+  <g fill="#A78BFA" opacity="0.18">
+    <circle cx="40" cy="40" r="2"/><circle cx="70" cy="40" r="2"/><circle cx="100" cy="40" r="2"/>
+    <circle cx="40" cy="70" r="2"/><circle cx="70" cy="70" r="2"/><circle cx="100" cy="70" r="2"/>
+    <circle cx="40" cy="100" r="2"/><circle cx="70" cy="100" r="2"/><circle cx="100" cy="100" r="2"/>
+    <circle cx="1100" cy="220" r="2"/><circle cx="1130" cy="220" r="2"/><circle cx="1160" cy="220" r="2"/>
+    <circle cx="1100" cy="250" r="2"/><circle cx="1130" cy="250" r="2"/><circle cx="1160" cy="250" r="2"/>
+    <circle cx="1100" cy="280" r="2"/><circle cx="1130" cy="280" r="2"/><circle cx="1160" cy="280" r="2"/>
+  </g>
+
+  <!-- lineas de circuito -->
+  <g stroke="url(#accent)" stroke-width="1.5" opacity="0.35" fill="none">
+    <path d="M0,260 L120,260 L150,230 L260,230"/>
+    <path d="M1200,60 L1080,60 L1050,90 L940,90"/>
+  </g>
+
+  <!-- cartucho / monograma -->
+  <g transform="translate(70,80)">
+    <rect x="0" y="0" width="150" height="160" rx="14" fill="#171226" stroke="url(#accent)" stroke-width="2.5"/>
+    <rect x="14" y="14" width="122" height="34" rx="6" fill="#0B0E1A"/>
+    <text x="75" y="38" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#A78BFA" text-anchor="middle">01000101</text>
+    <text x="75" y="112" font-family="ui-monospace, Menlo, monospace" font-size="72" font-weight="700" fill="url(#accent)" text-anchor="middle">S</text>
+    <rect x="14" y="130" width="122" height="16" rx="4" fill="url(#accentV)" opacity="0.8"/>
+  </g>
+
+  <!-- texto principal -->
+  <text x="260" y="150" font-family="ui-monospace, Menlo, monospace" font-size="54" font-weight="700" fill="#F4F1FA">SoySid</text>
+  <text x="262" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#B9B3D0">Backend Developer &#183; Python &#183; Bots &#183; Automatización</text>
+  <text x="262" y="212" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#6F6A8C">&gt; estudiante de sistemas — unne — armando cosas que corren solas</text>
+
+  <!-- chips flotantes -->
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="600">
+    <g transform="translate(262,235)">
+      <rect width="88" height="28" rx="14" fill="#0B0E1A" stroke="#2DD4BF" stroke-width="1.2"/>
+      <text x="44" y="19" fill="#2DD4BF" text-anchor="middle">PYTHON</text>
+    </g>
+    <g transform="translate(362,235)">
+      <rect width="112" height="28" rx="14" fill="#0B0E1A" stroke="#A78BFA" stroke-width="1.2"/>
+      <text x="56" y="19" fill="#A78BFA" text-anchor="middle">POSTGRESQL</text>
+    </g>
+    <g transform="translate(486,235)">
+      <rect width="102" height="28" rx="14" fill="#0B0E1A" stroke="#FB7185" stroke-width="1.2"/>
+      <text x="51" y="19" fill="#FB7185" text-anchor="middle">TELEGRAM</text>
+    </g>
+    <g transform="translate(600,235)">
+      <rect width="100" height="28" rx="14" fill="#0B0E1A" stroke="#FFB86C" stroke-width="1.2"/>
+      <text x="50" y="19" fill="#FFB86C" text-anchor="middle">PLAYWRIGHT</text>
+    </g>
+  </g>
+
+  <!-- easter egg arcade -->
+  <text x="1130" y="300" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6F6A8C" text-anchor="end">INSERT COIN ▸</text>
+
+  <rect x="0" y="0" width="1200" height="320" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.5"/>
+</svg>

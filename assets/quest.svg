@@ -1,0 +1,26 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0E1A"/>
+      <stop offset="100%" stop-color="#171226"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="178" rx="16" fill="url(#bg4)" stroke="#FB7185" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <text x="32" y="40" font-family="ui-monospace, Menlo, monospace" font-size="13" letter-spacing="2" fill="#6F6A8C">QUEST LOG — completada</text>
+  <rect x="32" y="50" width="40" height="3" fill="url(#bar3)"/>
+
+  <text x="32" y="88" font-family="ui-monospace, Menlo, monospace" font-size="24" font-weight="700" fill="#F4F1FA">LlantitaBot</text>
+  <text x="32" y="115" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#B9B3D0">Bot en Python para monitoreo de precios, scraping de catálogo, persistencia en</text>
+  <text x="32" y="136" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.5" fill="#B9B3D0">PostgreSQL y alertas en tiempo real vía Telegram.</text>
+
+  <text x="32" y="163" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2DD4BF">★ recompensa: automatización 24/7, cero precios revisados a mano</text>
+
+  <text x="1168" y="163" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#6F6A8C" text-anchor="end">github.com/SoySid/LlantitaBot</text>
+</svg>

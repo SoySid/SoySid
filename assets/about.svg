@@ -1,0 +1,41 @@
+<svg width="580" height="270" viewBox="0 0 580 270" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0E1A"/>
+      <stop offset="100%" stop-color="#171226"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="578" height="268" rx="16" fill="url(#bg2)" stroke="#2DD4BF" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <text x="28" y="40" font-family="ui-monospace, Menlo, monospace" font-size="13" letter-spacing="2" fill="#6F6A8C">PLAYER INFO</text>
+  <rect x="28" y="50" width="40" height="3" fill="url(#bar)"/>
+
+  <text x="28" y="82" font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#B9B3D0">CLASS  <tspan fill="#F4F1FA" font-weight="700">Backend Developer</tspan></text>
+  <text x="28" y="106" font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#B9B3D0">GUILD  <tspan fill="#F4F1FA" font-weight="700">UNNE — Sistemas</tspan></text>
+  <text x="28" y="130" font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#B9B3D0">FOCUS  <tspan fill="#F4F1FA" font-weight="700">APIs · Bots · Datos</tspan></text>
+
+  <!-- skill bars -->
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#B9B3D0">
+    <text x="28" y="164">PYTHON</text>
+    <rect x="150" y="153" width="402" height="10" rx="5" fill="#1F1B33"/>
+    <rect x="150" y="153" width="362" height="10" rx="5" fill="url(#bar)"/>
+
+    <text x="28" y="188">POSTGRESQL</text>
+    <rect x="150" y="177" width="402" height="10" rx="5" fill="#1F1B33"/>
+    <rect x="150" y="177" width="322" height="10" rx="5" fill="url(#bar)"/>
+
+    <text x="28" y="212">AUTOMATIZ.</text>
+    <rect x="150" y="201" width="402" height="10" rx="5" fill="#1F1B33"/>
+    <rect x="150" y="201" width="342" height="10" rx="5" fill="url(#bar)"/>
+
+    <text x="28" y="236">PLAYWRIGHT</text>
+    <rect x="150" y="225" width="402" height="10" rx="5" fill="#1F1B33"/>
+    <rect x="150" y="225" width="241" height="10" rx="5" fill="url(#bar)"/>
+  </g>
+</svg>
