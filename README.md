@@ -1,38 +1,19 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="SoySid" width="100%"/>
-</p>
+# SoySid
 
-<br/>
+Estudio Licenciatura en Sistemas en la UNNE. Me dedico al desarrollo backend, automatización de tareas y trabajo con bases de datos relacionales.
 
-<p align="center">
-  <img src="./assets/about.svg" alt="Player info" width="100%"/>
-</p>
+## En lo que trabajo
 
-<br/>
+* **[llantita-bot](https://github.com/SoySid/llantita-bot):** Bot de Telegram enfocado en el monitoreo de precios. Extrae información de sitios e-commerce, guarda el historial en PostgreSQL y notifica cambios a través de la API de Telegram.
+* **Scripts de automatización:** Desarrollos enfocados en scraping, parseo de datos estructurados y ejecuciones programadas (cron jobs) para tareas repetitivas.
 
-<p align="center">
-  <img src="./assets/stack.svg" alt="Inventario tech" width="100%"/>
-</p>
+## Tecnologías
 
-<br/>
+* **Lenguaje principal:** Python
+* **Base de datos:** PostgreSQL / SQLite
+* **Entorno:** Linux, Bash, Git
+* **Automatización:** GitHub Actions, Telegram Bot API
 
-<p align="center">
-  <img src="./assets/quest.svg" alt="LlantitaBot" width="100%"/>
-</p>
+## Contacto
 
-<br/>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SoySid&show_icons=true&hide_border=true&count_private=true&bg_color=0B0E1A&title_color=A78BFA&icon_color=2DD4BF&text_color=B9B3D0" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoySid&layout=compact&hide_border=true&langs_count=6&bg_color=0B0E1A&title_color=A78BFA&text_color=B9B3D0" width="49%"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SoySid&hide_border=true&background=0B0E1A&ring=A78BFA&fire=FB7185&currStreakLabel=2DD4BF&sideLabels=B9B3D0&currStreakNum=F4F1FA&sideNums=F4F1FA&dates=6F6A8C" alt="streak" width="100%"/>
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="./assets/footer.svg" alt="footer" width="100%"/>
-</p>
+* Telegram: [@SoySid](https://t.me/SoySid)
