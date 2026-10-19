@@ -1,19 +1,22 @@
-# SoySid
+# Alfredo López (SoySid)
 
-Estudio Licenciatura en Sistemas en la UNNE. Me dedico al desarrollo backend, automatización de tareas y trabajo con bases de datos relacionales.
+Information Systems student at Universidad Nacional del Nordeste (UNNE), Argentina. I focus on backend development, task automation, and web scraping.
 
-## En lo que trabajo
+## Projects
 
-* **[llantita-bot](https://github.com/SoySid/llantita-bot):** Bot de Telegram enfocado en el monitoreo de precios. Extrae información de sitios e-commerce, guarda el historial en PostgreSQL y notifica cambios a través de la API de Telegram.
-* **Scripts de automatización:** Desarrollos enfocados en scraping, parseo de datos estructurados y ejecuciones programadas (cron jobs) para tareas repetitivas.
+* **[llantita-bot](https://github.com/SoySid/llantita-bot)**: Price tracker for sneakers on Argentine e-commerce platforms. Scrapes catalog data, stores price history in PostgreSQL, and sends price-drop alerts through Telegram. Includes a web dashboard built with Next.js.
+* **[carrefour-bot](https://github.com/SoySid/carrefour-bot)**: Supermarket price scraper built with Python and Playwright. Runs on scheduled GitHub Actions workflows to track item prices and notify updates via Telegram.
+* **Automation and tooling**: Scrapers, data pipelines, and scheduled scripts (cron jobs / GitHub Actions) to automate repetitive data extraction.
 
-## Tecnologías
+## Stack & Tools
 
-* **Lenguaje principal:** Python
-* **Base de datos:** PostgreSQL / SQLite
-* **Entorno:** Linux, Bash, Git
-* **Automatización:** GitHub Actions, Telegram Bot API
+* **Languages**: Python, SQL, JavaScript / TypeScript (Node.js, Next.js)
+* **Databases**: PostgreSQL, SQLite
+* **Scraping & Automation**: Playwright, BeautifulSoup, GitHub Actions, Telegram Bot API
+* **Environment**: Linux, Bash, Git
 
-## Contacto
+## Contact
 
 * Telegram: [@SoySid](https://t.me/SoySid)
+* GitHub: [@SoySid](https://github.com/SoySid)
+* Email: [soysidarg@gmail.com](mailto:soysidarg@gmail.com)
