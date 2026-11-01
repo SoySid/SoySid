@@ -13,8 +13,7 @@
 $ whoami
 > Alfredo López (@SoySid)
 > Estudiante de Licenciatura en Sistemas de Información (UNNE, Argentina)
-> Enfoque: Arquitectura backend, automatización de procesos, scrapers resilientes y bots
-> Estado: Desarrollando servicios en TypeScript, Python y PostgreSQL
+> Backend, automatización de procesos, scrapers y bots
 ```
 
 ---
@@ -37,40 +36,11 @@ $ whoami
 
 ### 🚀 Proyectos destacados
 
-| Proyecto | Arquitectura & Caso de uso | Stack | Estado |
-| :--- | :--- | :--- | :---: |
-| [**empy-bot**](https://github.com/SoySid/empy-bot) | Bot modular de WhatsApp para comunidades. Pipeline conversacional jerárquico de 4 capas (filtro heurístico, triage en Groq, RAG con `pgvector` y generación multimodal), memoria contextual persistente en Supabase y síntesis neuronal de voz con Fish Audio. | `TypeScript` `Baileys` `Supabase` `pgvector` `Prisma` | 🟢 Activo |
-| [**llantita-bot**](https://github.com/SoySid/llantita-bot) | Monitor y rastreador de precios de calzado en tiendas de e-commerce de Argentina (Sporting, etc.). Extracción periódica de catálogos, histórico de precios en PostgreSQL y alertas automáticas de caídas de precio por Telegram con catálogo web en Next.js. | `Next.js` `PostgreSQL` `Telegram API` `TypeScript` | 🟢 En producción |
-| [**carrefour-bot**](https://github.com/SoySid/carrefour-bot) | Monitor diario de precios de supermercado con cálculo de variaciones sobre canastas de consumo familiar ponderadas. Navegación headless resiliente y generación de reportes programados vía GitHub Actions. | `Python` `Playwright` `GitHub Actions` `PostgreSQL` | ⚙️ Automatizado |
-
----
-
-### 📐 Flujo de arquitectura y pipelines
-
-Estructura habitual en mis desarrollos de extracción, procesamiento y entrega en tiempo real:
-
-```mermaid
-flowchart LR
-    subgraph Ingesta["1. Fuentes & Ingesta"]
-        direction TB
-        S1["Scrapers Headless\n(Playwright / Python)"]
-        S2["Eventos de Mensajería\n(Baileys / Telegram)"]
-    end
-
-    subgraph Core["2. Lógica & Pipeline"]
-        direction TB
-        P1["Workers & Filtrado\n(Node.js / Cron)"]
-        P2["Triage & RAG\n(pgvector + LLMs)"]
-    end
-
-    subgraph Persistencia["3. Persistencia & Salida"]
-        direction TB
-        D1[("PostgreSQL\n(Supabase / Neon)")]
-        D2["Alertas & Respuestas\n(WhatsApp / Telegram)"]
-    end
-
-    Ingesta --> Core --> Persistencia
-```
+| Proyecto | Descripción | Stack |
+| :--- | :--- | :--- |
+| [**empy-bot**](https://github.com/SoySid/empy-bot) | Bot modular de WhatsApp para comunidades. Pipeline conversacional de 4 capas (filtro heurístico, triage en Groq, RAG con `pgvector` y generación multimodal), memoria contextual persistente en Supabase y síntesis neuronal de voz con Fish Audio. | `TypeScript` `Baileys` `Supabase` `pgvector` `Prisma` |
+| [**llantita-bot**](https://github.com/SoySid/llantita-bot) | Monitor y rastreador de precios de calzado en tiendas de e-commerce de Argentina (Sporting, etc.). Extracción periódica de catálogos, histórico de precios en PostgreSQL y alertas automáticas de caídas de precio por Telegram con catálogo web en Next.js. | `Next.js` `PostgreSQL` `Telegram API` `TypeScript` |
+| [**carrefour-bot**](https://github.com/SoySid/carrefour-bot) | Monitor diario de precios de supermercado con cálculo de variaciones sobre canastas familiares de consumo ponderadas. Navegación headless resiliente y generación de reportes programados vía GitHub Actions. | `Python` `Playwright` `GitHub Actions` `PostgreSQL` |
 
 ---
 
