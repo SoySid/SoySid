@@ -1,0 +1,16 @@
+# Entorno y credenciales
+.env*
+!.env.example
+
+# IDEs y sistemas operativos
+.DS_Store
+Thumbs.db
+*.local
+
+# Agentes y herramientas
+.gemini/
+.antigravity/
+.agent/
+brain/
+.system_generated/
+node_modules/
